@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".TrangChu"
+
+    android:background="@mipmap/background">
+
+
+
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="@android:color/darker_gray"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/fab"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="14dp"
+
+        android:layout_marginBottom="16dp"
+
+        android:src="@drawable/ic_done"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginEnd="14dp" />
+
+    <ListView
+
+        android:id="@+id/noteContainer"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:divider="#b5b5b5"
+
+        android:dividerHeight="1dp"
+
+        android:layout_below="@+id/toolbar"
+
+        android:layout_above="@+id/fab"
+
+        android:listSelector="@drawable/list_selector" />
+
+
+
+
+
+</RelativeLayout>

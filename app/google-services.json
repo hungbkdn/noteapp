@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "56746085632",
+    "firebase_url": "https://bknote-2cb8e.firebaseio.com",
+    "project_id": "bknote-2cb8e",
+    "storage_bucket": "bknote-2cb8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56746085632:android:cae1cae08c648ba9",
+        "android_client_info": {
+          "package_name": "com.example.admin.bknote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56746085632-2gsmsfbog8vj2arm4bqg53q2shbr85id.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.bknote",
+            "certificate_hash": "2bb019e38c8d6247aff1eae403053a096a45d3bb"
+          }
+        },
+        {
+          "client_id": "56746085632-l2bq3b8vh1v5p153dfdrdgdd7t74pm7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUpji2YRhJFgqhA5Sjq5gEQ2d6r6nHjA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56746085632-l2bq3b8vh1v5p153dfdrdgdd7t74pm7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
